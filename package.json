@@ -13,9 +13,12 @@
   "description": "Pair Programming Exercises",
   "devDependencies": {
     "@eslint/js": "^9.23.0",
+    "@types/jest": "^29.5.14",
     "eslint": "^9.23.0",
     "globals": "^16.0.0",
+    "jest": "^29.7.0",
     "prettier": "^3.5.3",
+    "ts-jest": "^29.3.1",
     "typescript": "^5.8.2",
     "typescript-eslint": "^8.29.0"
   }
