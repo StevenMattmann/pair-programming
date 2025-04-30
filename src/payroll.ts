@@ -43,6 +43,10 @@ export function calculatePayslip(salary: Salary): Payslip {
     deductions.set("NBU", + (gross * 0.0073).toFixed(2));
   }
 
+  if (annual >= 22680) {
+    deductions.set("PK", +(gross * 0.089).toFixed(2));
+  }
+
 
   return {
     salary,
